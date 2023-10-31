@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HandActivity"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:background="@color/grey"
+        android:gravity="center_vertical">
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dip"
+        android:text="@string/title_activity_main"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+        <ImageView
+            android:background="@drawable/btnbg"
+            android:id="@+id/iv_btn_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:layout_toLeftOf="@+id/iv_btn_clear"
+            android:padding="5dip"
+            android:src="@mipmap/audio_result" />
+        <ImageView
+            android:background="@drawable/btnbg"
+            android:id="@+id/iv_btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28dp"
+            android:layout_toLeftOf="@+id/iv_btn_save"
+            android:padding="5dip"
+            android:src="@drawable/clear" />
+        <ImageView
+        android:background="@drawable/btnbg"
+        android:id="@+id/iv_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="5dip"
+        android:src="@drawable/save" />
+
+    </RelativeLayout>
+    <com.example.parkinson.MainView
+        android:id="@+id/mainView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

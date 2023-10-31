@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".audio.AudioResultActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="身高（cm）" />
+    <EditText
+        android:id="@+id/HeightET"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="numberDecimal"
+        tools:ignore="SpeakableTextPresentCheck"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体重（kg）" />
+    <EditText
+        android:id="@+id/WeightET"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="numberDecimal"
+        tools:ignore="SpeakableTextPresentCheck"/>
+    <TextView
+        android:id="@+id/AudioResult"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg"
+        android:textColor="@color/blue"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <Button
+        android:id="@+id/AudioSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_margin="20px"
+        android:textSize="18sp" />
+</LinearLayout>

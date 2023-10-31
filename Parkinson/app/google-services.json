@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304789631704",
+    "project_id": "parkinson-s-prediction-8aac0",
+    "storage_bucket": "parkinson-s-prediction-8aac0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304789631704:android:38b92683d95a2e1a211dad",
+        "android_client_info": {
+          "package_name": "com.example.parkinson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304789631704-7j3hh3viv1lamsp99fbshb16n7l9cc3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_0ayamD163cg_UAdMC6U42m_64GT6JdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304789631704-7j3hh3viv1lamsp99fbshb16n7l9cc3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

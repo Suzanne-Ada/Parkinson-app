@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FDFDFD">
+        <RadioButton
+            android:id="@+id/menu_home"
+            android:text="@string/menu_home"
+            android:drawableTop="@drawable/selector_home"
+            android:checked="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/menu_style" />
+        <RadioButton
+            android:id="@+id/menu_forcast"
+            android:text="@string/menu_forcast"
+            android:drawableTop="@drawable/selector_forcast"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/menu_style" />
+        <RadioButton
+            android:id="@+id/menu_memory"
+            android:text="@string/menu_memory"
+            android:drawableTop="@drawable/selector_memory"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/menu_style" />
+        <RadioButton
+            android:id="@+id/menu_mine"
+            android:text="@string/menu_mine"
+            android:drawableTop="@drawable/selector_mine"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/menu_style" />
+    </RadioGroup>
+</LinearLayout>
